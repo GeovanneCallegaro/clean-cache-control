@@ -1,6 +1,6 @@
 import { CacheStore } from '@/data/protocols/cache';
 import { LocalSavePurchases} from '@/data/usecases'
-import { SavePurchases } from '@/domain/index';
+import { SavePurchases } from '@/domain/usecases';
 
 
 class CacheStoreSpy implements CacheStore {
